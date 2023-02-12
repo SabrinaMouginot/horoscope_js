@@ -12,10 +12,10 @@ body{
    
    #characteristic {
           
-      margin: auto;
-       width: 60%;
-   color:orange;
-       padding: 21px;
+    margin: auto;
+    width: 60%;
+    color:orange;
+    padding: 21px;
    }
    
     #animated{
@@ -24,7 +24,7 @@ body{
      animation-timing-function: ease-in-out;
      animation-iteration-count: infinite;
      animation-direction: alternate;
-    cursor: url("http://downloads.totallyfreecursors.com/cursor_files/gold_star.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/gold_star.gif"), auto;
+    /* cursor: url("http://downloads.totallyfreecursors.com/cursor_files/gold_star.ani"), url("http://downloads.totallyfreecursors.com/thumbnails/gold_star.gif"), auto; */
    }
    
    

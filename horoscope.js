@@ -1,7 +1,7 @@
 function zodiac(){
   var birthmonth = document.getElementById("month").value;
    var birthday = document.getElementById("day").value;
- var result = " unknown because you didn't put a valid date.";
+ var result = " Inconnu car vous n'avez pas mis de date valide.";
 
 
 if (birthmonth == 1&& birthday >= 20 || birthmonth == 2 && birthday <= 18
