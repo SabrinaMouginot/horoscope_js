@@ -78,7 +78,7 @@ if (birthmonth == 1&& birthday >= 20 || birthmonth == 2 && birthday <= 18
      document.getElementById("photo").innerHTML="<img src='https://www.horoscope.com/images-US/signs/profile-capricorn.png'width=20%>";
      document.getElementById("characteristic").innerHTML="Les membres de ce signe ont un désir insatiable de grimper plus haut et pendant ce cours, ils peuvent également devenir égoïstes et ne pas hésiter à sacrifier les intérêts des autres pour atteindre leurs objectifs. à la perfection.";
     }else if (birthmonth>12||birthday>31)
-       alert("Veuillez saisir une date précise ! ");
+       alert("Veuillez saisir une date précise. ");
     }
  document.getElementById("output").innerHTML= result;
 }
