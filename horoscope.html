@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="horoscope.css"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets/favicon.png"/>
+ 
+</head>
+<body>
+ 
+
+    <div id = "box">
+        <h1> Quel est ton signe du zodiaque ?</h1>
+    </div>
+        <h2> Entre ton jour d'anniversaire. </h2>
+        <p>Mois:<input type="number" id="month" min="1" max="12" ></p>
+        <p> Jour:<input type="number" id="day" min="1" max="31"></p>
+        <a id="animated" onclick="zodiac()"  class="button">Trouve ton signe du zodiaque! </a>
+        <p id="photo"></p>
+        <p id= "space"> Ton signe du zodiaque est <span id="output"></span> </p>
+        
+        <p id="characteristic"></p>
+        <img src="http://sweetclipart.com/multisite/sweetclipart/files/astrology_set_clipart_color_2.png" width=32%>
+        
+                
+    <script src="horoscope.js"></script>
+    
+</body> 
+</html>
